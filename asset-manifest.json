@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9199253.css",
-    "main.js": "/static/js/main.c2d6cf0b.js",
+    "main.css": "/static/css/main.2a9f67cc.css",
+    "main.js": "/static/js/main.f3e198e2.js",
     "static/media/ideakart.png": "/static/media/ideakart.88dbdc10acbc9d337f96.png",
     "static/media/pharmeasy.png": "/static/media/pharmeasy.05f29a7017c6b20878d2.png",
     "static/media/Shivani-Awasthi-Resume.pdf": "/static/media/Shivani-Awasthi-Resume.1d2673f0e464ff0097a1.pdf",
     "static/media/profile-pic (1).jpeg": "/static/media/profile-pic (1).9e70cc480e6285e90b6b.jpeg",
     "index.html": "/index.html",
-    "main.f9199253.css.map": "/static/css/main.f9199253.css.map",
-    "main.c2d6cf0b.js.map": "/static/js/main.c2d6cf0b.js.map"
+    "main.2a9f67cc.css.map": "/static/css/main.2a9f67cc.css.map",
+    "main.f3e198e2.js.map": "/static/js/main.f3e198e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9199253.css",
-    "static/js/main.c2d6cf0b.js"
+    "static/css/main.2a9f67cc.css",
+    "static/js/main.f3e198e2.js"
   ]
 }
