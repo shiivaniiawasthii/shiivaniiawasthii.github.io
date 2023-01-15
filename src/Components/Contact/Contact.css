@@ -1,0 +1,30 @@
+
+.github{
+ 
+  width: 100px;
+}
+
+
+.linkedin:hover {
+  color: #0a66c2;
+}
+.github:hover {
+  color: black;
+}
+.email:hover {
+  color: #d93025;
+}
+.twitter:hover {
+  color: rgb(29, 155, 240);
+}
+.phone:hover {
+  color: rgb(49, 236, 49);
+}
+@media (max-width: 600px) {
+  .contactcontainer svg {
+    font-size: 2em;
+  }
+  .contactcontainer svg:hover {
+    font-size: 3rem;
+  }
+}
