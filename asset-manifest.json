@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e471ee8.css",
-    "main.js": "/static/js/main.160473ed.js",
+    "main.css": "/static/css/main.ea7cb875.css",
+    "main.js": "/static/js/main.244e1230.js",
     "static/media/cozy.png": "/static/media/cozy.9e52434ec4b3a89017e2.png",
     "static/media/ideakart.png": "/static/media/ideakart.88dbdc10acbc9d337f96.png",
     "static/media/pharmeasy.png": "/static/media/pharmeasy.05f29a7017c6b20878d2.png",
     "static/media/Shivani-Awasthi-Resume.pdf": "/static/media/Shivani-Awasthi-Resume.f25d8396663e52595b05.pdf",
     "static/media/shivani_pro.jpg": "/static/media/shivani_pro.cbc25c71f22a248bb78e.jpg",
     "index.html": "/index.html",
-    "main.8e471ee8.css.map": "/static/css/main.8e471ee8.css.map",
-    "main.160473ed.js.map": "/static/js/main.160473ed.js.map"
+    "main.ea7cb875.css.map": "/static/css/main.ea7cb875.css.map",
+    "main.244e1230.js.map": "/static/js/main.244e1230.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e471ee8.css",
-    "static/js/main.160473ed.js"
+    "static/css/main.ea7cb875.css",
+    "static/js/main.244e1230.js"
   ]
 }
