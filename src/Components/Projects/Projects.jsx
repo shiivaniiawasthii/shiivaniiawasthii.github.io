@@ -6,6 +6,7 @@ import "./Projects.css";
 import pharmeasy from "../../Assets/images/pharmeasy.png";
 import ideakart from "../../Assets/images/ideakart.png";
 import cozy from "../../Assets/images/cozy.png"
+import plant from "../../Assets/images/plant1.png"
 export const Projects = () => {
 
 
@@ -17,13 +18,21 @@ export const Projects = () => {
         </h2>
 
 
-        {/* plantshop */}
+  
 
+
+        {/* Pharmeasy*/}
+
+        <div className="projects_container" >
+
+
+                {/* plantshop */}
+        
         <div className="project" >
 
 <img
       className="imgp"
-        src={cozy}
+        src={plant}
         alt="abc"
       />
   <h4 style={{marginTop:"20px"}}>Cozytrip</h4>
@@ -57,10 +66,46 @@ PlantShop is E-Commerce website for buying indoor and outdoor plants    </p>
 </div>
 </div>
 
-        {/* Pharmeasy*/}
 
-        <div className="projects_container" >
-          
+        {/* cozytrip */}
+          <div className="project" >
+
+          <img
+                className="imgp"
+                  src={cozy}
+                  alt="abc"
+                />
+            <h4 style={{marginTop:"20px"}}>Cozytrip</h4>
+              <p>
+              Cozytrip is online Holiday Home Rental Companies from there you can book hotels , make your trip plan.
+              </p>
+              
+                <h3>Tech Stack:</h3>
+                <h5>React JS| Redux | Node JS | Express JS | Mongo DB |HTML | CSS | JS </h5>
+              <div style={{display:"flex",width:"fit-content",margin:"auto"}}>
+             <a
+                  href="https://frontend-shvaniawsthi001-gmailcom.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </button>
+                </a>
+                
+                
+                <a
+                  href="https://github.com/rahulkr-dev/tripVilla_Clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button type="button" className="btn btn--outline">
+                    View Code
+                  </button>
+                </a>
+
+          </div>
+          </div>  
 
 
           <div className="project"  >
@@ -102,45 +147,7 @@ PlantShop is E-Commerce website for buying indoor and outdoor plants    </p>
           </div>
 
 
-          {/* cozytrip */}
-          <div className="project" >
-
-          <img
-                className="imgp"
-                  src={cozy}
-                  alt="abc"
-                />
-            <h4 style={{marginTop:"20px"}}>Cozytrip</h4>
-              <p>
-              Cozytrip is online Holiday Home Rental Companies from there you can book hotels , make your trip plan.
-              </p>
-              
-                <h3>Tech Stack:</h3>
-                <h5>React JS| Redux | Node JS | Express JS | Mongo DB |HTML | CSS | JS </h5>
-              <div style={{display:"flex",width:"fit-content",margin:"auto"}}>
-             <a
-                  href="https://frontend-shvaniawsthi001-gmailcom.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </button>
-                </a>
-                
-                
-                <a
-                  href="https://github.com/rahulkr-dev/tripVilla_Clone"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button type="button" className="btn btn--outline">
-                    View Code
-                  </button>
-                </a>
-
-          </div>
-          </div>
+          
 
 {/* ideakart */}
 
