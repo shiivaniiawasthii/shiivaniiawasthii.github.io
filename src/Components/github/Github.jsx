@@ -3,34 +3,38 @@ import GitHubCalendar from "react-github-calendar";
 import styles from "./Github.css"
 function Github() {
   return (
-    <Box m={"auto"}  display={"flex"} flexDirection={"column"} alignItems={"center"}
-    justifyContent={"center"}>
+    <Box m={"auto"}  
+
+    // display={"flex"} flexDirection={"column"} alignItems={"center"}
+    // justifyContent={"center"}
+    >
       <Heading
         size={"lg"}
-        fontWeight={"550"}
+        // fontWeight={"550"}
         color="rgb(35,34,34)"
-        w={"75%"}
+        // w={"75%"}
         margin="auto"
         textAlign={"left"}
         marginTop="50px"
         mb={"25px"}
-        className={styles.text}
+        // className={styles.text}
       >
         GitHub Stats
       </Heading>
-      <div className={styles.github}>
+      <div >
         <GitHubCalendar
+       
           username="shiivaniiawasthii"
           fontSize={18}
           color="#ff0000"
-          className="calender"
+          // className="calender"
         />
-        <Stack mt={5} align={"center"} >
+        <Stack  >
           <img
-            align="center"
+            // align="center"
             src="https://github-readme-stats.vercel.app/api?username=shiivaniiawasthii&show_icons=true&include_all_commits=true&count_private=true&hide=issues,contribs&border_radius=10&locale=en"
             alt="shiivaniiawasthii"
-            height="139"
+            // height="139"
           />
           <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shiivaniiawasthii&border_radius=10;" alt="shiivaniiawasthii" />
         </Stack>

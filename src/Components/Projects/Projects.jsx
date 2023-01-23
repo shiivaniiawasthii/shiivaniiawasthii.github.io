@@ -1,15 +1,7 @@
-import React, { useState } from "react";
+
 import "./Projects.css";
 
-import {
-  
-  SiHtml5,
- 
-  SiJavascript,
-  
-} from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
+
 
 import pharmeasy from "../../Assets/images/pharmeasy.png";
 import ideakart from "../../Assets/images/ideakart.png";
@@ -18,11 +10,52 @@ export const Projects = () => {
 
 
   return (
-    <>
+    <div  id="projects" >
       
-        <h2 className="section__title different" data-aos="fade-right" id="projects">
-          Projects
+        <h2 className="hh">
+          PROJECTS
         </h2>
+
+
+        {/* plantshop */}
+
+        <div className="project" >
+
+<img
+      className="imgp"
+        src={cozy}
+        alt="abc"
+      />
+  <h4 style={{marginTop:"20px"}}>Cozytrip</h4>
+    <p>
+PlantShop is E-Commerce website for buying indoor and outdoor plants    </p>
+    
+      <h3>Tech Stack:</h3>
+      <h5>React JS| Redux | Node JS | Express JS | Mongo DB |HTML | React-Bootstrap | JS |JWT token| Mongoose</h5>
+    <div style={{display:"flex",width:"fit-content",margin:"auto"}}>
+   <a
+        href="https://frotend-shvaniawsthi001-gmailcom.vercel.app/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <button type="button" className="btn btn--outline onbt">
+          See this Live
+        </button>
+      </a>
+      
+      
+      <a
+        href="https://github.com/shiivaniiawasthii/MERN-Ecommerce"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <button type="button" className="btn btn--outline">
+          View Code
+        </button>
+      </a>
+
+</div>
+</div>
 
         {/* Pharmeasy*/}
 
@@ -196,6 +229,6 @@ export const Projects = () => {
     
 
 </div>
-    </>
+    </div>
   );
 };
