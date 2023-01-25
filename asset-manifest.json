@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.ea7cb875.css",
-    "main.js": "/static/js/main.7361cc04.js",
+    "main.js": "/static/js/main.802a3eea.js",
     "static/media/cozy.png": "/static/media/cozy.9e52434ec4b3a89017e2.png",
     "static/media/plant1.png": "/static/media/plant1.24c8d49298fba8dbd645.png",
     "static/media/ideakart.png": "/static/media/ideakart.88dbdc10acbc9d337f96.png",
     "static/media/pharmeasy.png": "/static/media/pharmeasy.05f29a7017c6b20878d2.png",
-    "static/media/Shivani-Awasthi-Resume.pdf": "/static/media/Shivani-Awasthi-Resume.f25d8396663e52595b05.pdf",
-    "static/media/shivani_pro.jpg": "/static/media/shivani_pro.cbc25c71f22a248bb78e.jpg",
+    "static/media/Shivani-Awasthi-Resume.pdf": "/static/media/Shivani-Awasthi-Resume.baeaf6e72df931393889.pdf",
+    "static/media/shivani_pro.jpg": "/static/media/shivani_pro.2956e5fa0438618c5360.jpg",
     "index.html": "/index.html",
     "main.ea7cb875.css.map": "/static/css/main.ea7cb875.css.map",
-    "main.7361cc04.js.map": "/static/js/main.7361cc04.js.map"
+    "main.802a3eea.js.map": "/static/js/main.802a3eea.js.map"
   },
   "entrypoints": [
     "static/css/main.ea7cb875.css",
-    "static/js/main.7361cc04.js"
+    "static/js/main.802a3eea.js"
   ]
 }
